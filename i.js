@@ -66,6 +66,6 @@
     draw(island)
 
     inputButton.onclick = () => {
-        location.href = 'https:\\\\' + location.host + '/?' + input.value
+        location.href = 'https:\\\\' + location.host + location.pathname + '?' + input.value
     }
 })(window);
