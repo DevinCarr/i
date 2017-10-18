@@ -3,7 +3,8 @@
         svg = d3.select("div#i").append("svg")
                      .attr("height", 800)
                      .attr("width", 800)
-                     .attr("viewBox", "-2000 -2000 4000 4000"),
+                     .attr("viewBox", "-2000 -2000 4000 4000")
+                     .attr("fill", "darkgreen"),
         input = document.getElementById("input"),
         inputButton = document.getElementById("inputButton")
 
