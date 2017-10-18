@@ -6,8 +6,12 @@
         <link rel="canonical" href="https://devincarr.com/i/"/>
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <style>
-            body {
+            #i {
                 margin-top: 1rem;
+                display: flex;
+                justify-content: center;
+            }
+            .footer {
                 display: flex;
                 justify-content: center;
             }
@@ -16,6 +20,10 @@
 	</head>
 	<body>
         <div id="i"></div>
+        <div class="footer">
+            <input id="input" type="number"></input>
+            <button id="inputButton" placeholder="Intervals">Run</button>
+        </div>
         <script src="i.js"></script>
 	</body>
 </html>
